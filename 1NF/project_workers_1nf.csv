@@ -1,0 +1,16 @@
+ProjectID,WorkerName,WorkerPhone,WorkerHourlyRate
+P001,Mike Ross,617-555-3001,45
+P001,Rachel Zane,617-555-3002,50
+P001,Harvey Specter,617-555-3003,70
+P002,Mike Ross,617-555-3001,45
+P002,Tom Hardy,617-555-3004,48
+P003,Rachel Zane,617-555-3002,50
+P003,Tom Hardy,617-555-3004,48
+P004,Mike Ross,617-555-3001,45
+P004,Louis Litt,617-555-3005,55
+P005,Harvey Specter,617-555-3003,70
+P005,Rachel Zane,617-555-3002,50
+P006,Tom Hardy,617-555-3004,48
+P006,Mike Ross,617-555-3001,45
+P007,Louis Litt,617-555-3005,55
+P007,Harvey Specter,617-555-3003,70
