@@ -171,4 +171,4 @@ Since no BCNF violations were found, **no decomposition was necessary**. All 12 
 
 ## Why the Design is in BCNF
 
-In every table, for every non-trivial functional dependency X → Y, the left-hand side X is a candidate key of that table. This satisfies the BCNF condition exactly. Because the 3NF design already correctly isolated entities and relationships — separating clients, supervisors, workers, suppliers, projects, and their relationships into distinct tables — no further anomalies remained that could cause a BCNF violation. The design is lossless and dependency-preserving.
+In every table, for every non-trivial functional dependency X → Y, the left-hand side X is a candidate key of that table. This satisfies the BCNF condition exactly. Because the 3NF design already correctly isolated entities and relationships separating clients, supervisors, workers, suppliers, projects, and their relationships into distinct tables no further anomalies remained that could cause a BCNF violation. The design is lossless and dependency-preserving.
