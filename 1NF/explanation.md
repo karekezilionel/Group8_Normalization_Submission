@@ -35,9 +35,9 @@ sign that the data was not atomic.
 Two techniques were used:
 
 1. **Splitting a multi-valued cell into multiple rows.**
-   For example, the row containing `Mike Ross` with
-   `WorkerSkills = Carpentry|Framing` was split into two rows: one carrying
-   `Carpentry` and one carrying `Framing`. This technique was applied to
+   For instance, the row that has `Mike Ross` in it with
+   and the other carrying carpentry.‘WorkerSkills' is broken down into two rows: one with ‘and', and the other with ‘carpentry'.
+   Two with a 'CARPENTRY' and one with a 'FRAMING'. This technique was used for
    `WorkerSkills`, `WorkerCertifications`, `SupplierPhones`,
    `MaterialSupplied`, and `EquipmentUsed`.
 
@@ -109,8 +109,8 @@ Therefore the data satisfies all three conditions of First Normal Form.
   not removal of redundancy. Removing it is the job of 2NF, 3NF, and 4NF.
 
 - **Partial dependency remains for the next stage.** In
-  `project_workers_1nf`, the composite key is `(ProjectID, WorkerName)`.
-  However, `WorkerPhone` and `WorkerHourlyRate` depend only on `WorkerName`,
-  not on the whole composite key. This is a **partial dependency**, and it
-  is exactly what Second Normal Form (2NF) must remove.
+  The composite key for this table is project_workers_1nf, which is made of the key (ProjectID, WorkerName).
+  However, only `WorkerName` is used for WorkerPhone and WorkerHourlyRate,
+  not on the whole composite key. This is a partial dependency, and
+  Second Normal Form (2NF) will eliminate just that.
 
